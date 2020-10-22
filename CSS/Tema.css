@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(hsl(256, 89%, 56%), hsl(256, 76%, 69%));
+    height: 100%;
+    width: 100%;
+    background-repeat: none;
+    font-family: Righteous;
+}
+.marco{
+   
+    text-align: center;
+    margin: 300px;
+    height: 150px;
+    font-size: 40px;
+    color: #3f1097;
+    text-shadow:  rgb(255, 255, 255) 4px 4px;
+    background-image: url("../Imagenes/css3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+transition: color 0.9s ease-in-out;
+}
+.marco:hover{
+    color: rgb(6, 75, 92);
+}
+.nave{
+    width: 1200px;
+    margin: 20px auto;
+    background: rgb(11, 1, 68);
+
+}
+.men{
+    
+    text-align: center;
+
+}
+.menu > li{
+    /*position: relative;*/
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(234, 252, 72);
+    font-family:'Open_Sans';
+    text-decoration: none;
+    margin: 1px; 
+    transition: background-color 1s ease;
+    /*
+    transition-duration: ;
+    transition-timing-function: ;*/
+    
+}
+.menu li a:hover{
+    color: rgb(104, 86, 8);
+    background-color: #fff566;
+}
+.p{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(187, 141, 230) 0px 1px 10px;
+    color: rgb(173, 173, 173);
+    background: lime;
+    text-shadow: gray 2px 2px;
+    font-weight: 200;
+    font-family: Righteous;
+    
+    transition: background-color 1.2s ease;
+    
+}
+.p:hover{
+    background-color: blueviolet;
+}
+.p img{
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.foot{
+    background: #030303;
+    text-align: center;
+    margin: 0pt;
+    color: aliceblue;
+    font-family: Montserrat;
+}
+.d{
+    background: #030303;
+    text-align: center;
+    margin: 0pt;
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+}
+/*Imagenes de fondo*/
+.titulo{
+    text-align: center;
+   
+    margin: 100px;
+    font-size: 40px;
+}
+.info{
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    border: 3px;
+    color: aliceblue;
+    text-shadow: black 4px 4px;
+    margin: 0 auto;
+    background-image: url("../Imagenes/prom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.info img{
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*Trancisiones*/
+.tutle{
+    text-align: center;
+    margin: 200px;
+    height: 150px;
+    font-size: 40px;
+    color: #3f1097;
+    text-shadow:  rgb(255, 255, 255) 4px 4px;
+    transition: color 0.9s ease-in-out;
+    
+}
+.tutle:hover{
+    color: rgb(104, 86, 8);
+    
+}
+.trans{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: blueviolet 0px 1px 10px;
+    color: blanchedalmond;
+    text-shadow: black 2px 2px;
+    background: #9a72e4;
+    font-weight: 200;
+    font-family: Righteous;
+    letter-spacing: 1px;
+    transition: background-color 1.2s ease-in-out;
+   
+    
+}
+.trans:hover{
+    background: blueviolet ;
+}
+.trans img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*transformaciones*/
+.imgs{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(110, 219, 205) 0px 1px 10px;
+    color: blanchedalmond;
+    background: rgb(61, 165, 179);
+    text-shadow: black 2px 2px;
+    font-weight: 200;
+    background-image: url("../Imagenes/arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Righteous;
+    
+    transition: background-color 1.2s ease;
+    
+}
+.imgs:hover{
+    background: rgb(5, 110, 119); 
+    background-image: url("../Imagenes/brock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+    transform: translate(300px, 70px) scale(1.5) rotateZ(60deg);
+    
+    
+}
+/*Animacion*/
+.bob{
+    width: 200px;
+    height: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background: #9eecf7;
+    animation-name: mianimacion;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    position: relative;
+}
+@keyframes mianimacion{
+    0%  {background: #9eecf7; left: 0px; top: 0px; color: darkblue;}
+    25% {background: cyan; left: 300px; top: 0px; color: darkcyan;}
+    50% {background: rgb(16, 122, 122); left: 600px; top: 0px; color: rgb(29, 95, 3);}
+    75% {background: cyan; left: 900px; top: 0px; color: darkblue;}
+    100%{background: rgb(34, 160, 160); left: 1252px; top: 0px; color: rgb(50, 204, 119);}
+}
+.bob:hover{
+    animation-play-state: paused;
+    
+
+}
+/*Botones*/
+.seg{
+    text-align: center;
+    color: rgb(180, 196, 226);
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+    font-family: Righteous;
+    font-size: 26px;
+}
+.ma{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blanchedalmond;
+    text-shadow: black 2px 2px;
+    font-weight: 200;
+    font-family: Righteous;
+    transition: background-color 1.2s ease;
+    display: flex;
+    background-image: url(../Imagenes/dwey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: none;
+    
+}
+.ma:hover{
+    background-image: url(../Imagenes/papure.png), url(../Imagenes/dwey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.btn{
+    width: 300px;
+    height: 60px;
+    font-size: 24px;
+    margin: auto;
+    background: #fff566;
+    color: rgb(44, 16, 206);
+    transition:  300ms;
+    border-style: none;
+    
+
+}
+.btn:hover{
+    background: #24b62b;
+    border-style: none;
+    transition: all 0.6s;
+    box-shadow: #030303 5px 5px;
+    
+}
+.btn:active{
+    background: rgb(118, 207, 118);
+    transition: 10ms;
+    border-style: none;
+    box-shadow: #3f1097;
+}
+/*Paginacion*/
+ .cont{
+    width: 100%;
+    height: 550px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(91, 70, 110) 0px 1px 10px;
+    color: rgb(171, 250, 237);
+    background: rgb(32, 10, 129);
+    text-shadow: rgb(44, 41, 41) 2px 2px;
+    font-weight: 200;
+    font-family: Righteous;
+    transition: background-color 1.2s ease;  
+ }
+ .cont > h1{
+     color: #00638a;
+     text-shadow: black 2px 2px;
+ }
+ .cont > p{
+     margin: 16px;
+ }
+ .cont:hover{
+    background: rgb(41, 4, 204);
+    box-shadow: #030303 5px 10px 10px;
+ }
+ .pagi{
+     margin: 20px 0;
+ }
+ .pagi > ul{
+     list-style: none;
+     text-align: center;
+ }
+ .pagi ul li{
+     display: inline-block;
+     margin-right: 10px;
+     font-size: 20px;
+ }
+ .pagi ul li a{
+     display: block;
+     padding: 10px 20px;
+     color: blanchedalmond;
+     background: #024959;
+     text-decoration: none;
+ }
+/*FlexBox*/
+.contenedor{
+    width: 700px;
+    height: 500px;
+    background: rgb(98, 100, 228);
+    padding: 10px;
+    border: 10px solid #024959;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+
+
+
+
+
